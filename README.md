@@ -11,7 +11,7 @@ Vottun Log is a lightweight and flexible logging library for GoLang. It provides
 To use Vottun Log in your Go project, you need to have Go installed and set up. Once you have Go ready, you can install the package by running the following command:
 
 
-```bash
+```go
 go get github.com/vottunio/log
 ```
 
@@ -34,6 +34,15 @@ func main() {
 	log.Traceln("This is an trace message")
 }
 ```
+
+And the result is:
+<div style="background: rgba(110, 118, 129, 0.4); padding:16px">
+08:01:18.750460 <span style="color:magenta">DEBUG [main] This is a debug message</span><br/>
+08:01:18.750460 <span style="color:green">INFO [main] This is an info message</span><br/>
+08:01:18.750460 <span style="color:yellow">WARN [main] This is a warn message</span><br/>
+08:01:18.750460 <span style="color:red">ERROR [main] This is an error message</span><br/>
+08:01:18.750460 <span style="color:cyan">TRACE [main] This is a trace message</span><br/>
+</div>
 
 ## License
 
