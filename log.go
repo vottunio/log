@@ -2,6 +2,7 @@ package log
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"runtime"
 	"strings"
@@ -169,4 +170,8 @@ func Println(v ...any) {
 // Arguments are handled in the manner of fmt.Printf.
 func Printf(format string, v ...any) {
 	logF(INFO, format, v...)
+}
+
+func SetOutput(w io.Writer) {
+	log.SetOutput(w)
 }
