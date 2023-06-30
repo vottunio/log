@@ -38,3 +38,5 @@ func main() {
 ## License
 
 Vottun Log is licensed under the [MIT License](https://github.com/vottunio/log/blob/main/LICENSE).
+
+Visit us at [https://vottun.com](https://vottun.com)
