@@ -27,6 +27,11 @@ import (
 )
 
 func main() {
+	// sets log destination to the standard output. You can use a file instead.
+	log.SetOutput(os.Stdout)
+	// sets the log level to TRACE
+	log.LogLevel = log.TRACE
+
 	log.Debugln("This is a debug message")
 	log.Infoln("This is an informational message")
 	log.Warnln("This is a warning message")
