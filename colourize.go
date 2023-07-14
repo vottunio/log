@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-// Colour Styles
+// Colour Styles and beautis
 const (
 	//Text Colour
 	Black   = 30
